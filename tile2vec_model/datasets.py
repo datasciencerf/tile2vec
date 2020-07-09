@@ -8,7 +8,7 @@ import glob
 import os
 import pickle
 import numpy as np
-from tile2vec_model.data_utils import clip_and_scale_image
+from tile2vec.tile2vec_model.data_utils import clip_and_scale_image
 
 
 class TileTripletsDataset(Dataset):

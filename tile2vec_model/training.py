@@ -1,7 +1,7 @@
 import numpy as np
 from time import time
 from torch.autograd import Variable
-from tile2vec_model.datasets import triplet_dataloader
+from tile2vec.tile2vec_model.datasets import triplet_dataloader
 
 
 def prep_triplets(triplets, cuda):
